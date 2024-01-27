@@ -1,0 +1,116 @@
+import { StyleSheet } from 'react-native';
+
+export const styles = StyleSheet.create({
+  container: {
+    flex: 1,
+    justifyContent: 'center',
+    padding: 27,
+    backgroundColor: '#F9F9F9',
+  },
+  header: {
+    marginTop:34,
+    flexDirection: 'row',
+    justifyContent: 'space-between',
+    alignItems: 'center',
+    gap: 70,
+    marginBottom: 20,
+  },
+  menuProfile: {
+    display: 'flex',
+    flexDirection: 'row',
+    alignItems: 'center',
+    gap: 18,
+  },
+  menuIcons:{
+    display: 'flex',
+    flexDirection: 'row',
+    gap: 18,
+  },
+  welcomeText: {
+    fontSize: 18,
+    fontWeight: 'bold',
+  },
+  infoArea: {
+    marginBottom: 10,
+  },
+  infoRow: {
+    flexDirection: 'row',
+    justifyContent: 'space-between',
+    marginBottom: 8,
+  },
+  infoItem: {
+    flex: 1,
+    flexDirection: 'row',
+    alignItems: 'center',
+    marginRight: 8,
+    borderWidth: 1,
+    borderColor: '#ddd',
+    backgroundColor:"#FFF",
+    borderRadius: 5,
+    padding: 8,
+  },
+  infoText: {
+    marginLeft: 8,
+  },
+  premiumArea: {
+    flexDirection: 'row',
+    justifyContent: 'space-between',
+    alignItems: 'center',
+    height: 60,
+    borderWidth: 1,
+    borderColor: '#ddd',
+    backgroundColor:"#FFF",
+    marginBottom: 16,
+    padding: 17,
+  },
+  choosePlan: {
+    textDecorationLine: 'underline',
+    color: '#00C950',
+  },
+  equalArea: {
+    marginBottom: 9,
+    borderWidth: 1,
+    borderColor: '#ddd',
+    backgroundColor:"#FFF",
+    padding: 18,
+    borderRadius: 8,
+  },
+  areaTitle: {
+    fontSize: 16,
+    fontWeight: 'bold',
+    marginBottom: 9,
+  },
+  areaText: {
+    marginTop: 8,
+    color:'#A49A9A',
+    fontSize: 14,
+    textAlign: 'center',
+    marginBottom: 16,
+  },
+  clickableArea: {
+    paddingTop: 4,
+    height: 33,
+    backgroundColor: '#00C950',
+    borderRadius: 5,
+  },
+  clickableText:{
+    color:'#FFF',
+    textAlign:'center',
+    fontSize: 16,
+  },
+  highlight: {
+    position: 'absolute',
+    top: -10,
+    right: 28,
+    borderWidth: 2,
+    borderColor: '#00C950',
+    padding: 2,
+    backgroundColor: '#00C950',
+    borderRadius: 8,
+  },
+  highlightLabel: {
+    fontSize: 12,
+    color: '#FFF',
+    fontWeight: 'bold',
+  },
+});
