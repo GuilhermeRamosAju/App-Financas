@@ -19,9 +19,9 @@ a partir disso o projeto iniciará na tela de cadastro e ao pressionar o botão 
 ## Imagens das telas
 
 <p align="center">
-  <img width="300" height="200" src="https://github.com/GuilhermeRamosAju/App-Financas/assets/105815487/6cce3628-223b-4f34-a70d-a459a428a4d7" alt="tela cadastro">
+  <img  height="700" src="https://github.com/GuilhermeRamosAju/App-Financas/assets/105815487/6cce3628-223b-4f34-a70d-a459a428a4d7" alt="tela cadastro">
 </p>
 <p align="center">
-  <img width="300" height="200" src="https://github.com/GuilhermeRamosAju/App-Financas/assets/105815487/3d135224-4221-4ced-ae55-7eff204a9685" alt="tela iniciao">
+  <img height="700" src="https://github.com/GuilhermeRamosAju/App-Financas/assets/105815487/3d135224-4221-4ced-ae55-7eff204a9685" alt="tela iniciao">
 </p>
 
