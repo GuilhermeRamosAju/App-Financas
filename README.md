@@ -14,7 +14,8 @@ Desafio proposto na criação de telas mobile de um app de finanças.
 ```bash
 npx expo start
 ```
-a partir disso o projeto iniciará na tela de cadastro e ao pressionar o botão de criar conta a segunda tela abrirá
+Para executar o projeto em seu ambiente de desenvolvimento basta executar esse comando acima na raiz do projeto, em seguida abrir através do app ExpoGo no celular o QR code gerado.
+A partir disso o projeto iniciará na tela de cadastro e ao pressionar o botão de criar conta a segunda tela abrirá.
 
 ## Imagens das telas
 
