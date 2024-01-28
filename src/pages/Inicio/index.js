@@ -1,8 +1,10 @@
-import React, { useState } from 'react';
-import { View, Text, StyleSheet } from 'react-native';
+import React, { useState, useRef } from 'react';
+import { View, Text, StyleSheet, TouchableOpacity } from 'react-native';
 import { styles } from '../../../styles/InicioStyles.js';
 import Icon from 'react-native-vector-icons/MaterialCommunityIcons';
 import Footer from '../../components/Footer';
+
+
 
 export default function Inicio() {
   const [isVisible, setIsVisible] = useState(false);
@@ -33,7 +35,7 @@ export default function Inicio() {
       {/* Cabeçalho */}
       <View style={styles.header}>
         <View style={styles.menuProfile}>
-          <Icon name="menu" size={30} onPress={() => console.log('Abrir Menu')} />
+          <Icon name="menu" size={30} onPress={() => console.log('Abrir menu')} />
           <Icon name="account-circle-outline" size={45} onPress={() => console.log('Abrir Perfil')} />
           <View>
             <Text style={styles.welcomeText}>Oi,</Text>
@@ -118,8 +120,8 @@ export default function Inicio() {
         )}
       </View>
       ))}
+    </View> 
       {/* Rodapé */}
-    </View>
     <Footer/>
     </>
   );
